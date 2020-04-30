@@ -1,0 +1,652 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{78370534-CCED-4F88-9D46-5162604B9926}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnlinePharmacy</RootNamespace>
+    <AssemblyName>OnlinePharmacy</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\255. Generate Invoice PDF in Shopping Website\Generate Invoice PDF in Shopping Website\itextsharp-dll-core\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="AddToCart.aspx" />
+    <Content Include="css\full-slider.css" />
+    <Content Include="Deliveryman.aspx" />
+    <Content Include="AddMedicineForm.aspx" />
+    <Content Include="AdminInfo.aspx" />
+    <Content Include="AdminLogin.aspx" />
+    <Content Include="AdminPanel.aspx" />
+    <Content Include="AdminRegistration.aspx" />
+    <Content Include="App_Data\Customer.mdf" />
+    <Content Include="App_Data\Customer_log.ldf">
+      <DependentUpon>Customer.mdf</DependentUpon>
+    </Content>
+    <Content Include="bootstrap-3.3.7-dist\css\bootstrap-theme.css" />
+    <Content Include="bootstrap-3.3.7-dist\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap-3.3.7-dist\css\bootstrap.css" />
+    <Content Include="bootstrap-3.3.7-dist\css\bootstrap.min.css" />
+    <Content Include="bootstrap-3.3.7-dist\js\bootstrap.js" />
+    <Content Include="bootstrap-3.3.7-dist\js\bootstrap.min.js" />
+    <Content Include="bootstrap-3.3.7-dist\js\npm.js" />
+    <Content Include="Contact.aspx" />
+    <Content Include="css\._landing-page.css" />
+    <Content Include="css\._landing-page.min.css" />
+    <Content Include="css\business-casual.css" />
+    <Content Include="css\business-casual.min.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\global - Copy %282%29.css" />
+    <Content Include="css\global - Copy.css" />
+    <Content Include="css\global.css" />
+    <Content Include="css\landing-page.css" />
+    <Content Include="css\landing-page.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="CustomerInfo.aspx" />
+    <Content Include="CustomerLogin.aspx" />
+    <Content Include="CustomerLogin1.aspx" />
+    <Content Include="CustomerRegistration.aspx" />
+    <Content Include="EditOrder.aspx" />
+    <Content Include="faq.aspx" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="images\bg2.jpg" />
+    <Content Include="images\d1.jpg" />
+    <Content Include="images\d2.jpg" />
+    <Content Include="images\d3.jpg" />
+    <Content Include="images\d4.jpg" />
+    <Content Include="images\d5.jpg" />
+    <Content Include="images\d6.jpg" />
+    <Content Include="images\d7.jpg" />
+    <Content Include="images\d8.jpg" />
+    <Content Include="Image\03.jpg" />
+    <Content Include="Image\04.jpg" />
+    <Content Include="Image\05.jpg" />
+    <Content Include="Image\admin.jpg" />
+    <Content Include="Image\background.jpg" />
+    <Content Include="Image\bg %281%29.jpeg" />
+    <Content Include="Image\bg %281%29.jpg" />
+    <Content Include="Image\bg %282%29.jpg" />
+    <Content Include="Image\bg %283%29.jpg" />
+    <Content Include="Image\bg %284%29.jpg" />
+    <Content Include="Image\bg %285%29.jpg" />
+    <Content Include="Image\bg %286%29.jpg" />
+    <Content Include="Image\bg %287%29.jpg" />
+    <Content Include="Image\bg %288%29.jpg" />
+    <Content Include="Image\bg-masthead.jpg" />
+    <Content Include="Image\bg-showcase-1.jpg" />
+    <Content Include="Image\bg-showcase-2.jpg" />
+    <Content Include="Image\bg-showcase-3.jpg" />
+    <Content Include="Image\bg_faq.jpg" />
+    <Content Include="Image\blurred-background-01.jpg" />
+    <Content Include="Image\blurred-background-03.jpg" />
+    <Content Include="Image\blurred-background-05.jpg" />
+    <Content Include="Image\download.jpg" />
+    <Content Include="Image\testimonials-1.jpg" />
+    <Content Include="Image\testimonials-2.jpg" />
+    <Content Include="Image\testimonials-3.jpg" />
+    <Content Include="img\._bg-masthead.jpg" />
+    <Content Include="img\._bg-showcase-1.jpg" />
+    <Content Include="img\._bg-showcase-2.jpg" />
+    <Content Include="img\._bg-showcase-3.jpg" />
+    <Content Include="img\._testimonials-1.jpg" />
+    <Content Include="img\._testimonials-2.jpg" />
+    <Content Include="img\._testimonials-3.jpg" />
+    <Content Include="img\about.jpg" />
+    <Content Include="img\bg-masthead.jpg" />
+    <Content Include="img\bg-showcase-1.jpg" />
+    <Content Include="img\bg-showcase-2.jpg" />
+    <Content Include="img\bg-showcase-3.jpg" />
+    <Content Include="img\bg2.jpg" />
+    <Content Include="img\d1.jpg" />
+    <Content Include="img\d2.jpg" />
+    <Content Include="img\d3.jpg" />
+    <Content Include="img\d4.jpg" />
+    <Content Include="img\d5.jpg" />
+    <Content Include="img\d6.jpg" />
+    <Content Include="img\d7.jpg" />
+    <Content Include="img\d8.jpg" />
+    <Content Include="img\testimonials-1.jpg" />
+    <Content Include="img\testimonials-2.jpg" />
+    <Content Include="img\testimonials-3.jpg" />
+    <Content Include="Invoice.aspx" />
+    <Content Include="js\._grayscale.js" />
+    <Content Include="js\._grayscale.min.js" />
+    <Content Include="js\grayscale.js" />
+    <Content Include="js\grayscale.min.js" />
+    <Content Include="MedicineInfo.aspx" />
+    <Content Include="Offer.aspx" />
+    <Content Include="OrderDetails.aspx" />
+    <Content Include="PlaceOrder.aspx" />
+    <Content Include="PlaceSuccessfully.aspx" />
+    <Content Include="Review.aspx" />
+    <Content Include="ShowMedicine.aspx" />
+    <Content Include="ShowReview.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="StaffInfo.aspx" />
+    <Content Include="StaffLogin.aspx" />
+    <Content Include="Vendor.aspx" />
+    <Content Include="vendor\bootstrap\css\._bootstrap-grid.css" />
+    <Content Include="vendor\bootstrap\css\._bootstrap-grid.min.css" />
+    <Content Include="vendor\bootstrap\css\._bootstrap-reboot.css" />
+    <Content Include="vendor\bootstrap\css\._bootstrap-reboot.min.css" />
+    <Content Include="vendor\bootstrap\css\._bootstrap.css" />
+    <Content Include="vendor\bootstrap\css\._bootstrap.min.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="vendor\bootstrap\js\._bootstrap.bundle.js" />
+    <Content Include="vendor\bootstrap\js\._bootstrap.bundle.min.js" />
+    <Content Include="vendor\bootstrap\js\._bootstrap.js" />
+    <Content Include="vendor\bootstrap\js\._bootstrap.min.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="vendor\font-awesome\css\._font-awesome.css" />
+    <Content Include="vendor\font-awesome\css\._font-awesome.min.css" />
+    <Content Include="vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="vendor\jquery\._jquery.js" />
+    <Content Include="vendor\jquery\._jquery.min.js" />
+    <Content Include="vendor\jquery\._jquery.slim.js" />
+    <Content Include="vendor\jquery\._jquery.slim.min.js" />
+    <Content Include="vendor\jquery\jquery.js" />
+    <Content Include="vendor\jquery\jquery.min.js" />
+    <Content Include="vendor\jquery\jquery.slim.js" />
+    <Content Include="vendor\jquery\jquery.slim.min.js" />
+    <Content Include="vendor\simple-line-icons\css\._simple-line-icons.css" />
+    <Content Include="vendor\simple-line-icons\css\simple-line-icons.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebForm2.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddToCart.aspx.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddToCart.aspx.designer.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deliveryman.aspx.cs">
+      <DependentUpon>Deliveryman.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deliveryman.aspx.designer.cs">
+      <DependentUpon>Deliveryman.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddMedicineForm.aspx.cs">
+      <DependentUpon>AddMedicineForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddMedicineForm.aspx.designer.cs">
+      <DependentUpon>AddMedicineForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfo.aspx.cs">
+      <DependentUpon>AdminInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfo.aspx.designer.cs">
+      <DependentUpon>AdminInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.aspx.cs">
+      <DependentUpon>AdminPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.aspx.designer.cs">
+      <DependentUpon>AdminPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRegistration.aspx.cs">
+      <DependentUpon>AdminRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRegistration.aspx.designer.cs">
+      <DependentUpon>AdminRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerInfo.aspx.cs">
+      <DependentUpon>CustomerInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerInfo.aspx.designer.cs">
+      <DependentUpon>CustomerInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerLogin.aspx.cs">
+      <DependentUpon>CustomerLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerLogin.aspx.designer.cs">
+      <DependentUpon>CustomerLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerLogin1.aspx.cs">
+      <DependentUpon>CustomerLogin1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerLogin1.aspx.designer.cs">
+      <DependentUpon>CustomerLogin1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerRegistration.aspx.cs">
+      <DependentUpon>CustomerRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerRegistration.aspx.designer.cs">
+      <DependentUpon>CustomerRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditOrder.aspx.cs">
+      <DependentUpon>EditOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditOrder.aspx.designer.cs">
+      <DependentUpon>EditOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="faq.aspx.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="faq.aspx.designer.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice.aspx.cs">
+      <DependentUpon>Invoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invoice.aspx.designer.cs">
+      <DependentUpon>Invoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MedicineInfo.aspx.cs">
+      <DependentUpon>MedicineInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MedicineInfo.aspx.designer.cs">
+      <DependentUpon>MedicineInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Offer.aspx.cs">
+      <DependentUpon>Offer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Offer.aspx.designer.cs">
+      <DependentUpon>Offer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails.aspx.cs">
+      <DependentUpon>OrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderDetails.aspx.designer.cs">
+      <DependentUpon>OrderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceOrder.aspx.cs">
+      <DependentUpon>PlaceOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlaceOrder.aspx.designer.cs">
+      <DependentUpon>PlaceOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceSuccessfully.aspx.cs">
+      <DependentUpon>PlaceSuccessfully.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlaceSuccessfully.aspx.designer.cs">
+      <DependentUpon>PlaceSuccessfully.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Review.aspx.cs">
+      <DependentUpon>Review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Review.aspx.designer.cs">
+      <DependentUpon>Review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowMedicine.aspx.cs">
+      <DependentUpon>ShowMedicine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowMedicine.aspx.designer.cs">
+      <DependentUpon>ShowMedicine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowReview.aspx.cs">
+      <DependentUpon>ShowReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowReview.aspx.designer.cs">
+      <DependentUpon>ShowReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffInfo.aspx.cs">
+      <DependentUpon>StaffInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffInfo.aspx.designer.cs">
+      <DependentUpon>StaffInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffLogin.aspx.cs">
+      <DependentUpon>StaffLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffLogin.aspx.designer.cs">
+      <DependentUpon>StaffLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Windows\Forms.cs" />
+    <Compile Include="Vendor.aspx.cs">
+      <DependentUpon>Vendor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vendor.aspx.designer.cs">
+      <DependentUpon>Vendor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap-3.3.7-dist\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap-3.3.7-dist\css\bootstrap-theme.min.css.map" />
+    <Content Include="bootstrap-3.3.7-dist\css\bootstrap.css.map" />
+    <Content Include="bootstrap-3.3.7-dist\css\bootstrap.min.css.map" />
+    <Content Include="bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="packages.config" />
+    <Content Include="ViewPage1.cshtml" />
+    <Content Include="scss\._landing-page.scss" />
+    <Content Include="scss\.__call-to-action.scss" />
+    <Content Include="scss\.__footer.scss" />
+    <Content Include="scss\.__global.scss" />
+    <Content Include="scss\.__icons.scss" />
+    <Content Include="scss\.__masthead.scss" />
+    <Content Include="scss\.__mixins.scss" />
+    <Content Include="scss\.__showcase.scss" />
+    <Content Include="scss\.__testimonials.scss" />
+    <Content Include="scss\.__variables.scss" />
+    <Content Include="scss\landing-page.scss" />
+    <Content Include="scss\_call-to-action.scss" />
+    <Content Include="scss\_footer.scss" />
+    <Content Include="scss\_global.scss" />
+    <Content Include="scss\_icons.scss" />
+    <Content Include="scss\_masthead.scss" />
+    <Content Include="scss\_mixins.scss" />
+    <Content Include="scss\_showcase.scss" />
+    <Content Include="scss\_testimonials.scss" />
+    <Content Include="scss\_variables.scss" />
+    <Content Include="vendor\._bootstrap" />
+    <Content Include="vendor\._font-awesome" />
+    <Content Include="vendor\._jquery" />
+    <Content Include="vendor\._simple-line-icons" />
+    <Content Include="vendor\bootstrap\._css" />
+    <Content Include="vendor\bootstrap\._js" />
+    <Content Include="vendor\bootstrap\css\._bootstrap.css.map" />
+    <Content Include="vendor\bootstrap\css\._bootstrap.min.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="vendor\bootstrap\js\._bootstrap.bundle.js.map" />
+    <Content Include="vendor\bootstrap\js\._bootstrap.bundle.min.js.map" />
+    <Content Include="vendor\bootstrap\js\._bootstrap.js.map" />
+    <Content Include="vendor\bootstrap\js\._bootstrap.min.js.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="vendor\font-awesome\._css" />
+    <Content Include="vendor\font-awesome\._fonts" />
+    <Content Include="vendor\font-awesome\._less" />
+    <Content Include="vendor\font-awesome\._scss" />
+    <Content Include="vendor\font-awesome\css\._font-awesome.css.map" />
+    <Content Include="vendor\font-awesome\css\font-awesome.css.map" />
+    <Content Include="vendor\font-awesome\fonts\._fontawesome-webfont.eot" />
+    <Content Include="vendor\font-awesome\fonts\._fontawesome-webfont.svg" />
+    <Content Include="vendor\font-awesome\fonts\._fontawesome-webfont.ttf" />
+    <Content Include="vendor\font-awesome\fonts\._fontawesome-webfont.woff" />
+    <Content Include="vendor\font-awesome\fonts\._fontawesome-webfont.woff2" />
+    <Content Include="vendor\font-awesome\fonts\._FontAwesome.otf" />
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="vendor\font-awesome\less\._animated.less" />
+    <Content Include="vendor\font-awesome\less\._bordered-pulled.less" />
+    <Content Include="vendor\font-awesome\less\._core.less" />
+    <Content Include="vendor\font-awesome\less\._fixed-width.less" />
+    <Content Include="vendor\font-awesome\less\._font-awesome.less" />
+    <Content Include="vendor\font-awesome\less\._icons.less" />
+    <Content Include="vendor\font-awesome\less\._larger.less" />
+    <Content Include="vendor\font-awesome\less\._list.less" />
+    <Content Include="vendor\font-awesome\less\._mixins.less" />
+    <Content Include="vendor\font-awesome\less\._path.less" />
+    <Content Include="vendor\font-awesome\less\._rotated-flipped.less" />
+    <Content Include="vendor\font-awesome\less\._screen-reader.less" />
+    <Content Include="vendor\font-awesome\less\._stacked.less" />
+    <Content Include="vendor\font-awesome\less\._variables.less" />
+    <Content Include="vendor\font-awesome\less\animated.less" />
+    <Content Include="vendor\font-awesome\less\bordered-pulled.less" />
+    <Content Include="vendor\font-awesome\less\core.less" />
+    <Content Include="vendor\font-awesome\less\fixed-width.less" />
+    <Content Include="vendor\font-awesome\less\font-awesome.less" />
+    <Content Include="vendor\font-awesome\less\icons.less" />
+    <Content Include="vendor\font-awesome\less\larger.less" />
+    <Content Include="vendor\font-awesome\less\list.less" />
+    <Content Include="vendor\font-awesome\less\mixins.less" />
+    <Content Include="vendor\font-awesome\less\path.less" />
+    <Content Include="vendor\font-awesome\less\rotated-flipped.less" />
+    <Content Include="vendor\font-awesome\less\screen-reader.less" />
+    <Content Include="vendor\font-awesome\less\stacked.less" />
+    <Content Include="vendor\font-awesome\less\variables.less" />
+    <Content Include="vendor\font-awesome\scss\._font-awesome.scss" />
+    <Content Include="vendor\font-awesome\scss\.__animated.scss" />
+    <Content Include="vendor\font-awesome\scss\.__bordered-pulled.scss" />
+    <Content Include="vendor\font-awesome\scss\.__core.scss" />
+    <Content Include="vendor\font-awesome\scss\.__fixed-width.scss" />
+    <Content Include="vendor\font-awesome\scss\.__icons.scss" />
+    <Content Include="vendor\font-awesome\scss\.__larger.scss" />
+    <Content Include="vendor\font-awesome\scss\.__list.scss" />
+    <Content Include="vendor\font-awesome\scss\.__mixins.scss" />
+    <Content Include="vendor\font-awesome\scss\.__path.scss" />
+    <Content Include="vendor\font-awesome\scss\.__rotated-flipped.scss" />
+    <Content Include="vendor\font-awesome\scss\.__screen-reader.scss" />
+    <Content Include="vendor\font-awesome\scss\.__stacked.scss" />
+    <Content Include="vendor\font-awesome\scss\.__variables.scss" />
+    <Content Include="vendor\font-awesome\scss\font-awesome.scss" />
+    <Content Include="vendor\font-awesome\scss\_animated.scss" />
+    <Content Include="vendor\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="vendor\font-awesome\scss\_core.scss" />
+    <Content Include="vendor\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="vendor\font-awesome\scss\_icons.scss" />
+    <Content Include="vendor\font-awesome\scss\_larger.scss" />
+    <Content Include="vendor\font-awesome\scss\_list.scss" />
+    <Content Include="vendor\font-awesome\scss\_mixins.scss" />
+    <Content Include="vendor\font-awesome\scss\_path.scss" />
+    <Content Include="vendor\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="vendor\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="vendor\font-awesome\scss\_stacked.scss" />
+    <Content Include="vendor\font-awesome\scss\_variables.scss" />
+    <Content Include="vendor\jquery\._jquery.min.map" />
+    <Content Include="vendor\jquery\._jquery.slim.min.map" />
+    <Content Include="vendor\jquery\jquery.min.map" />
+    <Content Include="vendor\jquery\jquery.slim.min.map" />
+    <Content Include="vendor\simple-line-icons\._css" />
+    <Content Include="vendor\simple-line-icons\._fonts" />
+    <Content Include="vendor\simple-line-icons\fonts\._Simple-Line-Icons.eot" />
+    <Content Include="vendor\simple-line-icons\fonts\._Simple-Line-Icons.svg" />
+    <Content Include="vendor\simple-line-icons\fonts\._Simple-Line-Icons.ttf" />
+    <Content Include="vendor\simple-line-icons\fonts\._Simple-Line-Icons.woff" />
+    <Content Include="vendor\simple-line-icons\fonts\._Simple-Line-Icons.woff2" />
+    <Content Include="vendor\simple-line-icons\fonts\Simple-Line-Icons.eot" />
+    <Content Include="vendor\simple-line-icons\fonts\Simple-Line-Icons.svg" />
+    <Content Include="vendor\simple-line-icons\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="vendor\simple-line-icons\fonts\Simple-Line-Icons.woff" />
+    <Content Include="vendor\simple-line-icons\fonts\Simple-Line-Icons.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Upload\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49189</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49189/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -12,12 +12,6 @@ Main objective is to manage the details of customer, medicine company, medicine,
 
 That’s why, Online Medicine Shop is developed where the management system of the medicine shop is web based through which one can manage a medicine shop easily from anywhere at anytime.
 
-## Overview
-1. An online based medicine shop
-2. Search and order medicine in the website
-3. Can download invoice after ordering
-4. Admin assigns a deliveryman to deliver medicine
-
 ## Languages
 
 Front end Language : HTML, CSS, JavaScript

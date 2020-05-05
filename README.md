@@ -1,4 +1,4 @@
-# Online-Medicine-Shop
+# Online Medicine Shop
 
 ## Introduction  
 

@@ -12,6 +12,13 @@ Main objective is to manage the details of customer, medicine company, medicine,
 
 That’s why, Online Medicine Shop is developed where the management system of the medicine shop is web based through which one can manage a medicine shop easily from anywhere at anytime.
 
+## Overview
+
+1. An online based medicine shop
+2. Search and order medicine in the website
+3. Can download invoice after ordering
+4. Admin assigns a deliveryman to deliver medicine
+
 ## Languages
 
 Front end Language : HTML, CSS, JavaScript
@@ -23,7 +30,7 @@ Database : MySQL
 
 ## Features
 
-1.	 Admin will provide all information of the medicine and the details of the medicine like the company name, the type of the medicine etc. to the website.
+1. Admin will provide all information of the medicine and the details of the medicine like the company name, the type of the medicine etc. to the website.
 
 2. Admin will have the information of medicine stock, stored location, date of storage, vendor details etc. Only admin can see these information.
 
@@ -31,11 +38,11 @@ Database : MySQL
 
 4. The people can view the details of the medicine that are available in this online shop without signing in the account.
 
-5. People/Customer has to Sign up, then sign in to this website for buying the medicine from the online shop.
+5. Customer has to Sign up, then sign in to this website for buying the medicine from the online shop.
 
-6. People/Customer can give the review on the medicine, but before he/she has to sign in.
+6. Customers can give the review on the medicine, but before he/she has to sign in.
 
-7. People/Customer can see the offer on the medicine and can buy the medicine at the discount rate.
+7. Customer can see the offer on the medicine and can buy the medicine at the discount rate.
 
 8. Medicines can be exchanged, if the medicines are bought from this shop and are not opened.
 

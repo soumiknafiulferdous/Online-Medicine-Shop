@@ -69,6 +69,6 @@ People need medicine when they become sick and disable to enjoy their normal lif
 
 So, Online Medicine Shop will create a new way of selling and buying the medicine and will make our life trouble free.
 
-## Demo Video Link: 
+## Demo Video Link
 
 https://youtu.be/AkA7slwQOJ4

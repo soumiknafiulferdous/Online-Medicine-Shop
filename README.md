@@ -47,7 +47,7 @@ Database : MySQL
 
 9. Customer can buy more than one product at a time.
 
-10. Customer can get a invoice after purchasing the medicine.
+10. Invoice is issued with the name and deatails of the customer after purchasing the medicine.
 
 11. Admin can assign the delivery man to deliver the medicine to the customer.
 

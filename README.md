@@ -55,7 +55,7 @@ Database : MySQL
 
 17. Customer can search the medicine according to medicine name and medicine type.
 
-18. Customer can search medicine according to age of the patient as some medicine is dedicated for certain age group.
+18. Customer can search medicine according to age as some medicine is dedicated for certain age-group.
 
 19. Customer can make their wishlist of medicine.
 

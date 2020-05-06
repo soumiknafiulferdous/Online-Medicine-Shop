@@ -41,7 +41,7 @@ Database : MySQL
 
 10. Invoice is issued with the name and deatails of the customer after purchasing the medicine.
 
-11. Admin can assign deliveryman to deliver the medicines to the customers.
+11. Admin can assign deliveryman to deliver the medicines to the customer.
 
 12. Deliveryman details can be managed by the admin.
 
@@ -51,7 +51,7 @@ Database : MySQL
 
 15. This project ensures the security of admin access by providing a separate login to the admin panel. 
 
-16. The medicine can be arranged according to the category.
+16. The medicine can be arranged according to different categories.
 
 17. Customer can search the medicine according to medicine name and medicine type.
 

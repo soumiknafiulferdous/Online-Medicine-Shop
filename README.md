@@ -23,7 +23,7 @@ Database : MySQL
 
 1. Admin will provide the details of the medicine like the company name, the type of the medicine etc. to the website.
 
-2. Admin have the information of stock, stored location, date of storage, vendor details etc. Only admin can access these information.
+2. Admin have the information of stock, stored location, storage date, vendor details etc. Only admin can access these information.
 
 3. Admin can give the offer of the medicine in this online medicine shop.
 

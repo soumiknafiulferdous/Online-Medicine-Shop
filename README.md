@@ -2,13 +2,13 @@
 
 ## Overview
 
-People need medicine when they become sick and unable to enjoy their normal life. People have to go in the medicine shop for buying medicine. But sometimes they can’t get the proper medicine due to lack of easy availability. So, the patients have to search the desired medicine in every medicine shop which waste their time and energy. Sometimes, in emergency case, the condition of patients become very serious without taking medicine at the right time. 
+People need medicine when they become sick and unable to enjoy their normal life. People have to go in the pharmacy for buying medicine. But sometimes they can’t get the proper medicine due to the lack of easy availability. So, the patients have to search foe the desired medicine in every medicine shop which wastes their time and energy. Sometimes, in emergency cases, the condition of patients become very serious without taking medicine at the right time. 
 
-Online Medicine Shop will give the opportunity to buy proper medicine by sitting in the house without any trouble. There are many medicine shop in every city but online medicine shop is very rare. The online medicine shop is operate over the internet. It will bring comfort to every buyer and seller of the medicine. The seller can manage the shop, store the details of the medicine and the relevant information and sell the medicine in one system easily. The customer can see, search, buy medicine and give review to the medicine in this website. So, Online Medicine Shop will create a convenient way of selling and buying medicine and will make our life easy and hassle free.
+Online Medicine Shop will give the opportunity to buy proper medicine sitting at home without any trouble. There are many medicine shop in every city but online medicine shop is very rare. The online medicine shop is operated over the internet. It will bring comfort to every buyer and seller of the medicine. The seller can manage the shop, store the details and relevant information of the medicine and sell the medicine in one system easily. The customer can see, search, buy medicine and give review about the service quality in this website. So, Online Medicine Shop will create a convenient way of selling and buying medicine and will make our life easy and hassle free.
 
 ## Objective  
 
-Main objective is to manage the details of customer, medicine company, medicine, medicine stock, order, sell on online. In this technical era, everything becomes easy. People love to enjoy a comfortable life. This online medicine shop will bring many facilities to people’s life. The seller can easily sell the medicine and take care the records and documents of the medicine. And the profit is also very high. That’s why, Online Medicine Shop is developed where the management system of the medicine shop is web based through which one can manage a medicine shop easily from anywhere at anytime.
+Main objective is to manage the details of customer, vendor, medicine, stock, order and sell the medicine in on online. In this technological era, everything becomes easy. People love to enjoy a comfortable life. This online medicine shop will bring many facilities to people’s life. The seller can easily sell the medicine and preserves the records and documents of the medicine. And the profit will be very high also. That’s why, Online Medicine Shop is developed where the management system of the medicine shop is web based through which one can manage a medicine shop easily from anywhere at anytime.
 
 ## Languages
 
@@ -21,17 +21,17 @@ Database : MySQL
 
 ## Features
 
-1. Admin will provide the details of the medicine like the company name, the type of the medicine etc. to the website.
+1. Admin will provide the details of the medicine like the company name, type of the medicine etc. to the website.
 
 2. Only admin has the access of the information of medicine stock, storage location, storage date, vendor details etc.
 
-3. Admin can give the offer of the medicine in this online medicine shop.
+3. Admin can announce offer of the medicine in this online medicine shop.
 
-4. The people can view the details of the medicine that are available in this online shop without signing in the account.
+4. People can view the details of the medicine that are available in this online shop without signing-in to the account.
 
-5. Customer has to Sign up, then sign in to this website for buying the medicine from the online shop.
+5. Customer has to sign up, then sign in to this website for buying the medicine from this online shop. 
 
-6. Customers can give the review on the medicine, but before he/she has to sign in.
+6. Customer can give the review on the medicine after signing in to the website. 
 
 7. Customer can see the offer on the medicine and can buy the medicine at the discount rate.
 
@@ -41,11 +41,11 @@ Database : MySQL
 
 10. Invoice is issued with the name and deatails of the customer after purchasing the medicine.
 
-11. Admin can assign the delivery man to deliver the medicine to the customer.
+11. Admin can assign the deliveryman to deliver the medicine to the customer.
 
-12. Delivery man details can be managed by the Admin.
+12. Deliveryman details can be managed by the admin.
 
-13. Number of visit, version update info of the website will be tracked by the admin and reserve it.
+13. Number of visits,version update info of the website will be tracked by the admin.
 
 14. Admin can add, update, delete the details of the medicine.
 
@@ -53,13 +53,13 @@ Database : MySQL
 
 16. The medicine will be arranged according to the category.
 
-17. Customer can search the medicine according to medicine name, medicine type.
+17. Customer can search the medicine according to medicine name, medicine type etc.
 
 18. Customer can also search the medicine according to age of the patient.
 
-19. Customer can make their Wishlist of medicine.
+19. Customer can make their wishlist of medicine.
 
-20. Customer can send request for any medicine product.
+20. Customer can send request for any medicine on demand. 
 
 
 ### Demo Video: https://youtu.be/AkA7slwQOJ4

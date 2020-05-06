@@ -49,7 +49,7 @@ Database : MySQL
 
 14. Admin can add, update, delete the details of the medicine.
 
-15. This project ensures the security of admin access by providing separate login to the admin panel. 
+15. This project ensures the security of admin access by providing a separate login to the admin panel. 
 
 16. The medicine can be arranged according to the category.
 

@@ -8,9 +8,7 @@ Online Medicine Shop will give the opportunity to buy proper medicine by sitting
 
 ## Objective  
 
-Main objective is to manage the details of customer, medicine company, medicine, medicine stock, order, sell on online. In this technical era, everything becomes easy. People love to become comforted. This online medicine shop will bring many facilities to people’s life. The seller can easily sell the medicine and take care the records and documents of the medicine. And the profit is also very high.
-
-That’s why, Online Medicine Shop is developed where the management system of the medicine shop is web based through which one can manage a medicine shop easily from anywhere at anytime.
+Main objective is to manage the details of customer, medicine company, medicine, medicine stock, order, sell on online. In this technical era, everything becomes easy. People love to enjoy a comfortable life. This online medicine shop will bring many facilities to people’s life. The seller can easily sell the medicine and take care the records and documents of the medicine. And the profit is also very high.That’s why, Online Medicine Shop is developed where the management system of the medicine shop is web based through which one can manage a medicine shop easily from anywhere at anytime.
 
 ## Languages
 

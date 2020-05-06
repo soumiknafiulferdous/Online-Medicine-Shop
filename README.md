@@ -45,17 +45,17 @@ Database : MySQL
 
 12. Deliveryman details can be managed by the admin.
 
-13. Number of visits,version update info of the website will be tracked by the admin.
+13. Number of visits, version update info of the website will be tracked by the admin.
 
 14. Admin can add, update, delete the details of the medicine.
 
-15. The project will be totally built at administrative and thus only the admin will guaranteed the access. 
+15. This project ensures the security of admin access by providing separate access to the admin panel. 
 
-16. The medicine will be arranged according to the category.
+16. The medicine can be arranged according to the category.
 
-17. Customer can search the medicine according to medicine name, medicine type etc.
+17. Customer can search the medicine according to medicine name and medicine type.
 
-18. Customer can also search the medicine according to age of the patient.
+18. Customer can also search the medicine according to age of the patient as some medicine is dedicated for different age group.
 
 19. Customer can make their wishlist of medicine.
 

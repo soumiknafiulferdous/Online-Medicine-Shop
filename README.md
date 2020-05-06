@@ -2,13 +2,9 @@
 
 ## Overview
 
-The medical sector is one of the most significant sector in humans life. People have to go in the medicine shop for buying medicine. But sometimes they can’t get the proper medicine due to lack of easy availability. So, the patients have to search the desired medicine in every medicine shop which waste their time and energy. Sometimes, in emergency case, the condition of patients become very serious without taking medicine at the right time. 
+People need medicine when they become sick and unable to enjoy their normal life. People have to go in the medicine shop for buying medicine. But sometimes they can’t get the proper medicine due to lack of easy availability. So, the patients have to search the desired medicine in every medicine shop which waste their time and energy. Sometimes, in emergency case, the condition of patients become very serious without taking medicine at the right time. 
 
-Online Medicine Shop will give the opportunity to buy proper medicine by sitting in the house without any trouble. 
-
-People need medicine when they become sick and disable to enjoy their normal life. There are many medicine shop in every city but online medicine shop is very few. The online medicine shop is operate over the internet. It will bring comfort to every buyer and seller of the medicine. The seller can manage the shop, store the details of the medicine and the relevant information and sell the medicine in one system easily. The customer can see, search, buy medicine and give review to the medicine in this website. The overall system makes peoples life comfortable and easy. 
-
-So, Online Medicine Shop will create a new way of selling and buying the medicine and will make our life trouble free.
+Online Medicine Shop will give the opportunity to buy proper medicine by sitting in the house without any trouble. There are many medicine shop in every city but online medicine shop is very rare. The online medicine shop is operate over the internet. It will bring comfort to every buyer and seller of the medicine. The seller can manage the shop, store the details of the medicine and the relevant information and sell the medicine in one system easily. The customer can see, search, buy medicine and give review to the medicine in this website. So, Online Medicine Shop will create a convenient way of selling and buying the medicine and will make our life easy and hassle free.
 
 ## Objective  
 

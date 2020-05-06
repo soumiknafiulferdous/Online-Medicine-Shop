@@ -8,7 +8,7 @@ Online Medicine Shop will give the opportunity to buy proper medicine by sitting
 
 ## Objective  
 
-Main objective is to manage the details of customer, medicine company, medicine, medicine stock, order, sell on online. In this technical era, everything becomes easy. People love to enjoy a comfortable life. This online medicine shop will bring many facilities to people’s life. The seller can easily sell the medicine and take care the records and documents of the medicine. And the profit is also very high.That’s why, Online Medicine Shop is developed where the management system of the medicine shop is web based through which one can manage a medicine shop easily from anywhere at anytime.
+Main objective is to manage the details of customer, medicine company, medicine, medicine stock, order, sell on online. In this technical era, everything becomes easy. People love to enjoy a comfortable life. This online medicine shop will bring many facilities to people’s life. The seller can easily sell the medicine and take care the records and documents of the medicine. And the profit is also very high. That’s why, Online Medicine Shop is developed where the management system of the medicine shop is web based through which one can manage a medicine shop easily from anywhere at anytime.
 
 ## Languages
 
@@ -21,9 +21,9 @@ Database : MySQL
 
 ## Features
 
-1. Admin will provide all information of the medicine and the details of the medicine like the company name, the type of the medicine etc. to the website.
+1. Admin will provide the details of the medicine like the company name, the type of the medicine etc. to the website.
 
-2. Admin will have the information of medicine stock, stored location, date of storage, vendor details etc. Only admin can see these information.
+2. Admin have the information of stock, stored location, date of storage, vendor details etc. Only admin can access these information.
 
 3. Admin can give the offer of the medicine in this online medicine shop.
 
@@ -52,6 +52,7 @@ Database : MySQL
 15. The project will be totally built at administrative and thus only the admin will guaranteed the access. 
 
 16. The medicine will be arranged according to the category.
+
 17. Customer can search the medicine according to medicine name, medicine type.
 
 18. Customer can also search the medicine according to age of the patient.

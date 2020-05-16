@@ -39,7 +39,7 @@ Database : MySQL
 
 9. Customer can buy more than one products at a time.
 
-10. Invoice is issued with the name and deatails of the customer after purchasing the medicine.
+10. Invoice is issued with the name and details of the customer after purchasing the medicine.
 
 11. Admin can assign deliveryman to deliver the medicines to the customer.
 

@@ -61,7 +61,7 @@ Database : MySQL
 
 20. Customer can send request for any medicine on demand. 
 
-## Data Flow Diagrams (DFD):
+## Data Flow Diagram (DFD)
 
 Context Level (Level 0) DFD:
 ![Context Level Level 0 Diagram](https://user-images.githubusercontent.com/30154496/82128654-8fd73100-97de-11ea-951d-afe065bb7a15.jpg)
@@ -71,14 +71,14 @@ Level 1 DFD:
 
 ![Level 1 Diagram](https://user-images.githubusercontent.com/30154496/82128659-95cd1200-97de-11ea-92ee-86d901b554cf.jpg)
 
-## Use Case Diagram:
+## Use Case Diagram
 ![Use case diagram](https://user-images.githubusercontent.com/30154496/82128662-9cf42000-97de-11ea-81e8-4cbceae5a37c.jpg)
 
-## Entity Relationship Diagram (ERD):
+## Entity Relationship Diagram (ERD)
 ![erd](https://user-images.githubusercontent.com/30154496/82128668-a2ea0100-97de-11ea-8f5c-ce2b60812153.jpg)
 
-## Class Diagram:
+## Class Diagram
 ![Class Diagram](https://user-images.githubusercontent.com/30154496/82128683-bdbc7580-97de-11ea-915b-aba08f02ad75.jpg)
 
 
-### Demo Video: https://youtu.be/AkA7slwQOJ4
+### Demo Video of Website: https://youtu.be/AkA7slwQOJ4

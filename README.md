@@ -74,7 +74,7 @@ Level 1 DFD:
 ## Use Case Diagram:
 ![Use case diagram](https://user-images.githubusercontent.com/30154496/82128662-9cf42000-97de-11ea-81e8-4cbceae5a37c.jpg)
 
-## Entity Relationship Diagram:
+## Entity Relationship Diagram (ERD):
 ![erd](https://user-images.githubusercontent.com/30154496/82128668-a2ea0100-97de-11ea-8f5c-ce2b60812153.jpg)
 
 ## Class Diagram:

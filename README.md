@@ -63,19 +63,20 @@ Database : MySQL
 
 #Diagrams:
 
-Context Level (el 0) iagram:
+Context Level (Level 0) Diagram:
 ![Context Level Level 0 Diagram](https://user-images.githubusercontent.com/30154496/82128654-8fd73100-97de-11ea-951d-afe065bb7a15.jpg)
 
 
+Level 1 Diagram:
 ![Level 1 Diagram](https://user-images.githubusercontent.com/30154496/82128659-95cd1200-97de-11ea-92ee-86d901b554cf.jpg)
 
-
+Use Case Diagram:
 ![Use case diagram](https://user-images.githubusercontent.com/30154496/82128662-9cf42000-97de-11ea-81e8-4cbceae5a37c.jpg)
 
-
+Entity Relationship Diagram:
 ![erd](https://user-images.githubusercontent.com/30154496/82128668-a2ea0100-97de-11ea-8f5c-ce2b60812153.jpg)
 
-
+Class Diagram:
 ![Class Diagram](https://user-images.githubusercontent.com/30154496/82128683-bdbc7580-97de-11ea-915b-aba08f02ad75.jpg)
 
 

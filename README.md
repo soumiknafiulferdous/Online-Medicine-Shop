@@ -10,7 +10,7 @@ Online Medicine Shop will give the opportunity to buy proper medicine sitting at
 
 The main objective is to manage the details of customer, vendor, medicine, stock, order and sell the medicine in online. In this technological era, everything becomes very faster. People love to enjoy a comfortable life. This online medicine shop will bring many facilities to our life. The seller can easily sell the medicine and preserves the records and documents of the medicine. And the profit will be high also. That’s why, Online Medicine Shop is developed where the management of the medicine shop is web based through which one can manage a medicine shop easily from anywhere at anytime.
 
-## Languages
+## Requirements
 
 Front end Language : HTML, CSS, JavaScript
 

@@ -12,11 +12,11 @@ The main objective is to manage the details of customer, vendor, medicine, stock
 
 ## Requirements
 
-Front-end Language : HTML, CSS, JavaScript
+Front-end Language: HTML, CSS, JavaScript
 
-Back-end Language : C#, ASP.NET
+Back-end Language: C#, ASP.NET
 
-Database : MySQL
+Database: MySQL
 
 
 ## Features

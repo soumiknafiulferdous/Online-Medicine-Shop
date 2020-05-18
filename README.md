@@ -16,7 +16,9 @@ Front-end Language: HTML, CSS, JavaScript
 
 Back-end Language: C#, ASP.NET
 
-Database: MySQL
+IDE: Microsoft Visual Studio
+
+Database: MS SQL Server
 
 
 ## Features

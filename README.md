@@ -20,6 +20,7 @@ Database: MS SQL Server
 
 IDE: Microsoft Visual Studio
 
+
 ## Features
 
 1. Admin will provide the details of the medicine like the company name, type of the medicine etc. to the website.

@@ -63,6 +63,9 @@ IDE: Microsoft Visual Studio
 
 20. Customer can send request for any medicine on demand. 
 
+## Screenshot
+![image1](https://user-images.githubusercontent.com/30154496/84474350-82617980-acac-11ea-9a45-9a9c277afe50.jpg)
+
 ## Data Flow Diagram (DFD)
 
 Context Level (Level 0) DFD:
@@ -81,8 +84,5 @@ Level 1 DFD:
 
 ## Class Diagram
 ![Class Diagram](https://user-images.githubusercontent.com/30154496/82128683-bdbc7580-97de-11ea-915b-aba08f02ad75.jpg)
-
-## Screenshot
-![image1](https://user-images.githubusercontent.com/30154496/84474350-82617980-acac-11ea-9a45-9a9c277afe50.jpg)
 
 ### Demo Video of Website: https://youtu.be/AkA7slwQOJ4
